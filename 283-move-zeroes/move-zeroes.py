@@ -7,5 +7,5 @@ class Solution:
                 nums[r],nums[w]=nums[w],nums[r]
                 r+=1
 
-        return w
+        return r
         
