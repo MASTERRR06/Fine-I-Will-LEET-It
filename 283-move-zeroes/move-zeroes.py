@@ -6,4 +6,6 @@ class Solution:
             if nums[w]!=0:
                 nums[r],nums[w]=nums[w],nums[r]
                 r+=1
+
+        return w
         
